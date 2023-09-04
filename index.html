@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>ストップウォッチ</title>
+  </head>
+  
+  <body>
+    <section class="application-area">
+      <h3>ストップウォッチ</h3>
+      <div class="watch-area">
+        <div id="time">00:00:00:00</div>
+        <ul class="button-area">
+          <li><button class="watch-buttons" id="start" onclick="start()">スタート</button></li>
+          <li><button class="watch-buttons" id="stop" onclick="stop()" disabled>ストップ</button></li>
+          <li><button class="watch-buttons" id="reset" onclick="reset()" disabled>リセット</button></li>
+        </ul>
+      </div>
+    </section>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+  </body>

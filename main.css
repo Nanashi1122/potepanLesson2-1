@@ -1,0 +1,49 @@
+html{
+  background-color: #1f1f1f;
+}
+
+body{
+  font-family: serif;
+}
+
+.application-area{
+  width: fit-content;
+  text-align: center;
+  background-color: #333333;
+  margin: 50px auto 0 auto;
+  padding: 30px 50px 30px 50px;
+  box-sizing: border-box;
+  border-radius: 80px;
+}
+
+.application-area > h3{
+  font-size: 30px;
+  color: #22cdec;
+  margin-bottom: 0;
+}
+
+#time{
+  font-size: 70px;
+  color: #22cdec;
+}
+
+.button-area{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.watch-buttons{
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.watch-buttons:hover{
+  cursor: pointer;
+}
+.watch-buttons:disabled{
+  pointer-events: none;
+  background-color: gray;
+}
