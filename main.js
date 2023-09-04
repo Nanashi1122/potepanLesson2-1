@@ -21,6 +21,10 @@ $(document).ready(function(){
   
   $('#reset').click(function(){
     clearInterval(timerID);
+    h = 0;
+    m = 0;
+    s = 0;
+    ms = 0;
     $('#time').html('00:00:00:00');
     $('#stop,#reset').prop('disabled', true);
     $('#start').prop('disabled', false);
